@@ -46,14 +46,14 @@ android {
             buildConfigField(
                 "String",
                 "API_URL",
-                "\"https://mancitysquad-1-q8493322.deta.app/\""
+                "\"https://api.example.com/books/\""
             )
         }
         create("development") {
             buildConfigField(
                 "String",
                 "API_URL",
-                "\"https://mancitysquad-1-q8493322.deta.app/\""
+                "\"api.example.com/books/\""
             )
         }
     }
